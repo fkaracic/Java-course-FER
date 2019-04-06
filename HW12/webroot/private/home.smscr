@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+    <meta charset="utf-8">
+    <title>Home</title>
+    <style type="text/css">
+      BODY {
+        background-color: {$= "background" "#7F7F7F" @tparamGet $};
+      }
+	  
+	  li {
+		list-style-type: none;
+	  }
+    </style>
+    
+  </head>
+  <body>
+  <div align="center">
+   <font color="orange"> <h1>Home page</h1></font>
+	</div>
+	
+	<h1> Sum calculator </h1>
+	<form action="/calc" method="get"  target="_blank">
+			variable a: <input type="text" name="a"><br>
+			variable b: <input type="text" name="b"><br>
+		<input type="submit" value="Calculate sum">
+	</form>
+  
+	<nav>
+		<div align="center">
+			<h1> Execute scripts </h1>
+				<font size=7 color="magenta"><li>osnovni.smscr <a href="http://www.localhost.com:5721/scripts/osnovni.smscr" target="_blank">(here)</a></li></font>
+				<font size=7 color="magenta"><li>brojPoziva.smscr <a href="http://www.localhost.com:5721/scripts/brojPoziva.smscr" target="_blank">(here)</a></li></font>
+				<font size=7 color="magenta"><li>fibonaccih.smscr <a href="http://www.localhost.com:5721/scripts/fibonaccih.smscr" target="_blank">(here)</a></li></font>
+	  
+			<h1> Execute worker </h1>
+				<font size=7 color="magenta"><li>HelloWorker <a href="http://www.localhost.com:5721/hello" target="_blank">(here)</a></li></font>
+				<font size=7 color="magenta"><li>CircleWorker <a href="http://www.localhost.com:5721/cw" target="_blank">(here)</a></li></font>
+		</div>
+	</nav>
+	
+	<p>
+		<ul>
+			<h1> Select background color </h1>
+				<form action="/setbgcolor" method ="get">
+					<select name="bgcolor">
+						<option value="FF0000">Red</option>
+						<option value="00FF00">Green</option>
+						<option value="0000FF">Blue</option>
+						<option value="FFFFFF">White</option>
+					</select>
+					<input type="submit" value="Select">
+				</form>
+		</ul>
+	</p>
+	
+  </body>
+</html>

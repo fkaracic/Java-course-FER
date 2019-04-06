@@ -1,0 +1,4 @@
+This is sample text.
+{$ FOR i -2 3 4$}
+This is {$= i @1fun $}-th time this message is generated.
+{$END$}

@@ -1,0 +1,13 @@
+0000000001	Anić	Ante	3
+0000000002	Anić	Ana	4
+0000000003	Barić	Iva	5
+0000000004	Berić	Ivan	4
+0000000005	Berić	Bero	4
+0000000006	Dika	Ivana	2
+0000000007	Katić	Katarina	3
+0000000008	Lanić Malić	Lana	5
+0000000009	Marić	Ante	5
+0000000010	Matić	Josipa	3
+0000000011	Mikić	Miro	4
+0000000012	Nikić	Lucija	2
+0000000013	Stipić	Ivan Josip	4
