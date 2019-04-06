@@ -1,2 +1,2 @@
 # Java course at the Faculty of Electrical Engineering and Computing in Zagreb
-Java course by Marko Čupić @ FER
+ The Course was held by **doc. dr. sc. Marko Čupić**
